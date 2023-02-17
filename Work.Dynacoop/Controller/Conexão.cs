@@ -21,10 +21,9 @@ namespace Work.Dynacoop.Controller
                                       ClientSecret={clientSecret};";
             CrmServiceClient serviceClient = new CrmServiceClient(stringConnection);
             
-            if (!serviceClient.CurrentAccessToken.Equals(null))
-                Console.WriteLine("Conexão Realizado com sucesso");
-            else
+            if (serviceClient.CurrentAccessToken.Equals(null))
                 Console.WriteLine("Erro na conexão");
+            
 
             return serviceClient;
         }

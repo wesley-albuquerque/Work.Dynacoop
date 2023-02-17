@@ -49,6 +49,7 @@ namespace Work.Dynacoop.Controller
                     Contato.CriaContato();
                     Conta.AtualizaContato(Contato.Contact.Id);
                     Console.WriteLine("Contato criado com sucesso e atribuído a nova conta");
+                    Console.ReadKey();
 
                 }
                 else 

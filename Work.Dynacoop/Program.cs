@@ -9,9 +9,9 @@ using Work.Dynacoop.Controller;
 
 namespace Work.Dynacoop
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             CrmServiceClient serviceClient = Conexão.GetService();
 

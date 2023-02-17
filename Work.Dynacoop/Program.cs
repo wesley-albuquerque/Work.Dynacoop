@@ -26,14 +26,9 @@ namespace Work.Dynacoop
                 ContatoController contatoController = new ContatoController(serviceClient, contaController.Conta);
                 contatoController.CriarContato();
 
-                
             }
 
-            //Environment.Exit(0);
-
-
         }
-
 
     }
 }

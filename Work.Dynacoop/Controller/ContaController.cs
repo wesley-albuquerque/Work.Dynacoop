@@ -29,11 +29,8 @@ namespace Work.Dynacoop.Controller
 
         {
             Console.WriteLine("Por favor informe o nome da Conta");
-
             Conta.NomeConta = Console.ReadLine();
-            ExisteConta();
-
-
+  
             Console.WriteLine("Escreva o CNPJ da conta");
             Conta.CNPJ = Console.ReadLine();
             if (!ValidaConta())
